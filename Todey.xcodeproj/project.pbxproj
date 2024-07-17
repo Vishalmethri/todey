@@ -16,8 +16,8 @@
 		59B70F732C43E20000E5EFEA /* TodeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B70F722C43E20000E5EFEA /* TodeyTests.swift */; };
 		59B70F7D2C43E20000E5EFEA /* TodeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B70F7C2C43E20000E5EFEA /* TodeyUITests.swift */; };
 		59B70F7F2C43E20000E5EFEA /* TodeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B70F7E2C43E20000E5EFEA /* TodeyUITestsLaunchTests.swift */; };
-		59B70F8C2C441A3700E5EFEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B70F8B2C441A3700E5EFEA /* Item.swift */; };
 		59B70F932C45374500E5EFEA /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59B70F912C45374500E5EFEA /* DataModel.xcdatamodeld */; };
+		59B70FD52C4694E700E5EFEA /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B70FD42C4694E700E5EFEA /* CategoryListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		59B70F782C43E20000E5EFEA /* TodeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B70F7C2C43E20000E5EFEA /* TodeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodeyUITests.swift; sourceTree = "<group>"; };
 		59B70F7E2C43E20000E5EFEA /* TodeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		59B70F8B2C441A3700E5EFEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		59B70F922C45374500E5EFEA /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		59B70FD42C4694E700E5EFEA /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,6 @@
 		59B70F8E2C441A4C00E5EFEA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				59B70F8B2C441A3700E5EFEA /* Item.swift */,
 				59B70F912C45374500E5EFEA /* DataModel.xcdatamodeld */,
 			);
 			path = Model;
@@ -144,6 +143,7 @@
 		59B70F8F2C441A5B00E5EFEA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				59B70FD42C4694E700E5EFEA /* CategoryListViewController.swift */,
 				59B70F5F2C43E1FF00E5EFEA /* TodeyTableViewController.swift */,
 			);
 			path = Controller;
@@ -288,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B70F8C2C441A3700E5EFEA /* Item.swift in Sources */,
+				59B70FD52C4694E700E5EFEA /* CategoryListViewController.swift in Sources */,
 				59B70F932C45374500E5EFEA /* DataModel.xcdatamodeld in Sources */,
 				59B70F602C43E1FF00E5EFEA /* TodeyTableViewController.swift in Sources */,
 				59B70F5C2C43E1FF00E5EFEA /* AppDelegate.swift in Sources */,
